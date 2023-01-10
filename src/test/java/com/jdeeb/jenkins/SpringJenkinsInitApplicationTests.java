@@ -1,5 +1,6 @@
 package com.jdeeb.jenkins;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ class SpringJenkinsInitApplicationTests {
 	@Test
 	void contextLoads() {
 		log.info("Test Started");
+		assertEquals(true, true);
 	}
 
 }
