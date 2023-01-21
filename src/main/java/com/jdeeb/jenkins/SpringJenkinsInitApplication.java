@@ -13,7 +13,7 @@ public class SpringJenkinsInitApplication {
 	private static Logger log = LoggerFactory.getLogger(SpringJenkinsInitApplication.class);
 	
 	@PostConstruct
-	public  init() {
+	public void init() {
 		log.info("Application initated ...");
 	}
 	
